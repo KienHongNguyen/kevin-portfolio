@@ -4,7 +4,7 @@ import Homepage from "./components/Homepage";
 
 export default function Home() {
   return (
-    <main className='relative scroll-smooth border border-red-500 w-screen h-screen bg-white'>
+    <main className='relative scroll-smooth w-screen h-screen bg-white'>
       <Header />
       <Homepage />
       <About />

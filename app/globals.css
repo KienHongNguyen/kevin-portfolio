@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@tailwind utilities;
+
+body {
+  @apply text-black;
+}
+
+@theme {
+  --color-blue: #0000ff;
+  --color-mainblue: #1447e6;
+  --color-red: #ff0000;
+  --color-green: #008000;
+  --color-yellow: #ffff00;
+}
