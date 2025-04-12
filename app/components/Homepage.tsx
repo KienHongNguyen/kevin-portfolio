@@ -4,7 +4,7 @@ const Homepage = () => {
   return (
     <div
       id='homepage'
-      className='flex justify-center items-center max-w-[1440px] px-6 py-24 xl:py-56 bg-blue-50'
+      className='flex justify-center items-center max-w-[1440px] px-6 py-24 xl:py-56 bg-red-500'
     >
       <div className='flex flex-col items-center gap-8 text-black'>
         {/* Title */}
