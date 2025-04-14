@@ -4,15 +4,15 @@ const Homepage = () => {
   return (
     <div
       id='homepage'
-      className='flex justify-center items-center max-w-[1440px] px-6 py-24 xl:py-56 bg-blue-50'
+      className='flex justify-center items-center max-w-[1440px] mx-auto px-6 py-24 xl:py-24 border border-red'
     >
-      <div className='flex flex-col items-center gap-8 text-black'>
+      <div className='flex flex-col items-center gap-12'>
         {/* Title */}
-        <div className='uppercase font-bold text-center text-4xl xl:text-[48px] leading-12'>
-          Hey, I&apos;m Kevin Nguyen
-        </div>
+        <h1 className='font-bold text-center text-4xl xl:text-[6rem] leading-32'>
+          Hi. I&apos;m Kevin. <br /> A Developer.
+        </h1>
         {/* Subtitle */}
-        <div className='xl:w-3/5 text-center xl:leading-10 text-xl xl:text-2xl'>
+        <div className='xl:w-3/5 text-center xl:leading-8 text-xl xl:text-xl'>
           A Passionate Front-End Developer crafting responsive, high-performance
           web apps with React, Next.js & Tailwind CSS.
         </div>

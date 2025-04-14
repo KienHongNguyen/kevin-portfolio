@@ -16,15 +16,15 @@ const About = () => {
   return (
     <div
       id='about'
-      className='flex flex-col gap-12 xl:gap-18 max-w-[1440px] px-4 py-18 xl:px-18 xl:py-27 bg-white'
+      className='flex flex-col gap-12 xl:gap-18 max-w-[1440px] mx-auto px-4 py-18 xl:px-18 xl:py-27 bg-champagne'
     >
       {/* Header Container */}
       <div className='flex flex-col gap-4 xl:gap-6 items-center'>
-        <div className='text-[32px] xl:text-[42px] font-bold uppercase'>
+        <h1 className='text-[32px] xl:text-[42px] font-bold uppercase'>
           About Me
-        </div>
+        </h1>
         <div className='bg-mainblue w-8 xl:w-10 h-2 rounded-2xl'></div>
-        <div className='text-base xl:text-2xl text-gray-600 xl:w-3/5 text-center'>
+        <div className='text-base xl:text-2xl xl:w-3/5 text-center'>
           Here you will find more information about me, what I do, and my
           current skills mostly in terms of programming and technology
         </div>
@@ -35,9 +35,9 @@ const About = () => {
         {/* Get to know me! */}
         <div className='w-full xl:w-1/2 flex flex-col gap-8 xl:gap-10'>
           {/* Header */}
-          <div className='text-xl xl:text-4xl font-bold'>Get to know me!</div>
+          <h1 className='text-xl xl:text-4xl font-bold'>Get to know me!</h1>
           {/* Text */}
-          <div className='flex flex-col gap-4 xl:gap-6 xl:text-2xl text-gray-600'>
+          <div className='flex flex-col gap-4 xl:gap-6 xl:text-2xl'>
             <div>
               I&apos;m a <strong>Front-End Developer</strong> and IT student at
               Monash University, focused on building clean, responsive, and
@@ -73,12 +73,12 @@ const About = () => {
         {/* My Skills */}
         <div className='w-full xl:w-1/2 flex flex-col gap-8 xl:gap-10'>
           {/* Header */}
-          <div className='text-xl xl:text-4xl font-bold'>My Skill</div>
+          <h1 className='text-xl xl:text-4xl font-bold'>My Skill</h1>
           <div className='flex gap-4 flex-wrap'>
             {skillList.map((skill, index) => (
               <div
                 key={index}
-                className='w-fit py-3 xl:py-4 px-3 xl:px-4 bg-gray-200 text-base xl:text-xl font-semibold text-gray-600 rounded-lg'
+                className='w-fit py-3 xl:py-4 px-3 xl:px-6 bg-white text-base xl:text-xl font-semibold rounded-full'
               >
                 {skill}
               </div>
