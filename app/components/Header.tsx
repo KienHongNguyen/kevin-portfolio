@@ -8,7 +8,7 @@ export default function Header() {
   const [active, setActive] = useState("Home");
   return (
     <header className='sticky top-8 z-99'>
-      <div className='flex gap-4 py-3 px-4 my-4 mx-auto w-fit bg-white rounded-full'>
+      <div className='flex gap-4 py-3 px-4 my-8 mx-auto w-fit bg-white rounded-full'>
         {/* Section */}
         {navItems.map((item) => (
           <Link
