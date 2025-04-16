@@ -6,7 +6,7 @@ import Header from "./components/Header";
 
 export default function Home() {
   return (
-    <main className='relative scroll-smooth w-screen h-screen'>
+    <main className='relative scroll-smooth w-screen h-screen bg-linear-to-b from-champagne to-white'>
       <Header />
 
       <AboutPage />

@@ -23,7 +23,7 @@ const AboutPage = () => {
   // }
 
   return (
-    <main className='flex flex-col gap-12 xl:gap-18 max-w-[1440px] mx-auto px-4 py-18 xl:px-18 xl:py-27 bg-champagne border border-red'>
+    <main className='flex flex-col gap-12 xl:gap-18 max-w-[1440px] mx-auto px-4 py-18 xl:px-18 xl:py-27border border-red'>
       <h1 className='font-bold text-center text-4xl xl:text-[6rem] leading-32'>
         I&apos;m Kevin.
       </h1>
