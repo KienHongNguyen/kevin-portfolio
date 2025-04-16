@@ -1,8 +1,8 @@
-import About from "./components/About";
+// import About from "./components/About";
 import AboutPage from "./components/AboutPage";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Homepage from "./components/Homepage";
+// import Homepage from "./components/Homepage";
 
 export default function Home() {
   return (
