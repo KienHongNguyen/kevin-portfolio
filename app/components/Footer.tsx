@@ -1,10 +1,20 @@
+"use client";
 import React from "react";
+import { useEffect, useState } from "react";
 
-const Footer = () => {
+export default function Footer() {
   const year = new Date();
   const date1 = year.getFullYear();
+  // const [darkMode, setDarkMode] = useState(false);
 
-  console.log(date1);
+  // useEffect(() => {
+  //   const root = document.documentElement;
+  //   if (darkMode) {
+  //     root.classList.add("dark");
+  //   } else {
+  //     root.classList.remove("dark");
+  //   }
+  // }, [darkMode]);
 
   return (
     <footer className='max-w-[1440px] mx-auto px-48 py-24'>
@@ -43,10 +53,15 @@ const Footer = () => {
               <div>Message</div>
             </div>
           </div>
+
+          {/* <button
+            onClick={() => setDarkMode((prev) => !prev)}
+            className='px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-md shadow hover:scale-105 transition'
+          >
+            {darkMode ? "🌞 Light Mode" : "🌙 Dark Mode"}
+          </button> */}
         </div>
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}

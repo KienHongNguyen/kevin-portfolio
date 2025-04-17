@@ -16,7 +16,7 @@ const About = () => {
   return (
     <div
       id='about'
-      className='flex flex-col gap-12 xl:gap-18 max-w-[1440px] mx-auto px-4 py-18 xl:px-18 xl:py-27 bg-champagne'
+      className='flex flex-col gap-12 xl:gap-18 max-w-[1440px] mx-auto px-4 py-18 xl:px-18 xl:py-27 bg-grape'
     >
       {/* Header Container */}
       <div className='flex flex-col gap-4 xl:gap-6 items-center'>
