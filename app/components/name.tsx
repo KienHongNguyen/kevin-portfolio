@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const name = () => {
   const skillList = [
     "HTML",
     "CSS",
@@ -90,4 +90,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default name;

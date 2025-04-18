@@ -1,97 +1,29 @@
+"use client";
 import React from "react";
 
-const page = () => {
-  return <div>About Page!</div>;
-};
+export default function page() {
+  return (
+    <main className='flex flex-col gap-12 xl:gap-18 max-w-[1440px] mx-auto px-4 py-18 xl:px-18 xl:py-27'>
+      <h1 className='font-bold text-center text-4xl xl:text-[6rem] leading-32'>
+        I&apos;m Kevin.
+      </h1>
 
-export default page;
-
-// () {
-//   const skillList = [
-//     "HTML",
-//     "CSS",
-//     "JavaScript",
-//     "TypeScript",
-//     "React",
-//     "Next.js",
-//     "Tailwind CSS",
-//     "Git",
-//     "GitHub",
-//     "Figma "
-//   ];
-//   return (
-//     <div
-//       id='about'
-//       className='flex flex-col gap-12 xl:gap-18 max-w-[1440px] px-4 py-18 xl:px-18 xl:py-27 bg-white'
-//     >
-//       {/* Header Container */}
-//       <div className='flex flex-col gap-4 xl:gap-6 items-center'>
-//         <div className='text-[32px] xl:text-[42px] font-bold uppercase'>
-//           About Me
-//         </div>
-//         <div className='bg-mainblue w-8 xl:w-10 h-2 rounded-2xl'></div>
-//         <div className='text-base xl:text-2xl text-gray-600 xl:w-3/5 text-center'>
-//           Here you will find more information about me, what I do, and my
-//           current skills mostly in terms of programming and technology
-//         </div>
-//       </div>
-
-//       {/* Text Container */}
-//       <div className='flex flex-col lg:flex-row gap-12 xl:gap-18'>
-//         {/* Get to know me! */}
-//         <div className='w-full xl:w-1/2 flex flex-col gap-8 xl:gap-10'>
-//           {/* Header */}
-//           <div className='text-xl xl:text-4xl font-bold'>Get to know me!</div>
-//           {/* Text */}
-//           <div className='flex flex-col gap-4 xl:gap-6 xl:text-2xl text-gray-600'>
-//             <div>
-//               I&apos;m a <strong>Front-End Developer</strong> and IT student at
-//               Monash University, focused on building clean, responsive, and
-//               high-performance web applications using React, Next.js, and
-//               Tailwind CSS.
-//             </div>
-//             <div>
-//               At <strong>Ripid</strong>, I collaborated with developers to
-//               enhance UI, integrate APIs, and improve SEO through server-side
-//               rendering. I&apos;m passionate about continuous learning,
-//               problem-solving, and contributing to the developer community.
-//             </div>
-//             <div>
-//               I&apos;m open to opportunities where I can grow, contribute, and
-//               make a meaningful impact. I&apos;m available to connect on{" "}
-//               <a
-//                 className='text-mainblue underline font-semibold'
-//                 href='https://www.linkedin.com/in/kienhongnguyen/'
-//                 target='_blank'
-//                 rel='noopener noreferrer'
-//               >
-//                 LinkedIn
-//               </a>
-//               .
-//             </div>
-//           </div>
-//           {/* Button */}
-//           <button className='text-white text-base xl:text-xl font-bold bg-mainblue uppercase w-fit py-3 xl:py-4 px-10 xl:px-12 rounded-lg'>
-//             Contact
-//           </button>
-//         </div>
-
-//         {/* My Skills */}
-//         <div className='w-full xl:w-1/2 flex flex-col gap-8 xl:gap-10'>
-//           {/* Header */}
-//           <div className='text-xl xl:text-4xl font-bold'>My Skill</div>
-//           <div className='flex gap-4 flex-wrap'>
-//             {skillList.map((skill, index) => (
-//               <div
-//                 key={index}
-//                 className='w-fit py-3 xl:py-4 px-3 xl:px-4 bg-gray-200 text-base xl:text-xl font-semibold text-gray-600 rounded-lg'
-//               >
-//                 {skill}
-//               </div>
-//             ))}
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
+      {/* Content Container */}
+      <div className='flex'>
+        <div className='w-2/5 border border-blue px-20'>
+          {/* <img
+            src='/profile-picture.jpg'
+            alt='Kevin Nguyen'
+            className='w-full rounded-t-full'
+          ></img> */}
+        </div>
+        <div className='flex justify-between h-fit w-3/5'>
+          <div>
+            I&apos;m a Web Developer working remotely from 8°C Melbourne,
+            Australia.
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+}

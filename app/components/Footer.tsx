@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { useEffect, useState } from "react";
 import DarkModeToggle from "./DarkModeToggle";
 
 export default function Footer() {

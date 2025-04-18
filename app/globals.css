@@ -1,8 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ede7de;
-  --foreground: #ede7de;
+  --background: #ece7df;
+  --foreground: #ece7df;
+  --text: #4c6763;
+}
+
+.dark {
+  --background: #283831;
+  --foreground: #283831;
+  --text: #d4ede4;
 }
 
 @theme inline {
@@ -11,32 +18,20 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
-/* 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #1f2b27;
-    --foreground: #1f2b27;
-    --text: #ede7de;
-  }
-} */
-
-.dark {
-  --background: #1f2b27;
-  --text: #ede7de;
-}
 
 body {
   background: var(--background);
-  color: var(--foreground);
+  color: var(--text);
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  @apply text-light-forest;
+h1 {
+  font-weight: bold;
+  color: #025a4e;
 }
 
-h1 {
-  @apply font-bold text-forest;
+.dark h1 {
+  color: #8fdcc2;
 }
 
 @theme {
@@ -49,9 +44,32 @@ h1 {
   --color-green: #008000;
   --color-yellow: #ffff00;
 
-  /* Custom Color */
-  --color-champagne: #ede7de;
+  /* Light Color */
+  --color-light-background: #ece7df;
   --color-light-forest: #4c6763;
   --color-forest: #025a4e;
-  --color-grape: rgba(114, 35, 204);
+
+  /* Dark Color */
+  --color-dark-background: #283831;
+  --color-light-neon: #d4ede4;
+  --color-neon: #8fdcc2;
+  --color-dark-gradient: linear-gradient(
+    to bottom,
+    hsla(158, 23%, 18%, 0) 0%,
+    hsla(158, 23%, 18%, 0.013) 9.7%,
+    hsla(158, 23%, 18%, 0.049) 18.1%,
+    hsla(158, 23%, 18%, 0.104) 25.5%,
+    hsla(158, 23%, 18%, 0.175) 31.9%,
+    hsla(158, 23%, 18%, 0.259) 37.7%,
+    hsla(158, 23%, 18%, 0.352) 43%,
+    hsla(158, 23%, 18%, 0.45) 47.9%,
+    hsla(158, 23%, 18%, 0.55) 52.8%,
+    hsla(158, 23%, 18%, 0.648) 57.7%,
+    hsla(158, 23%, 18%, 0.741) 63%,
+    hsla(158, 23%, 18%, 0.825) 68.7%,
+    hsla(158, 23%, 18%, 0.896) 75%,
+    hsla(158, 23%, 18%, 0.951) 82.2%,
+    hsla(158, 23%, 18%, 0.987) 90.5%,
+    hsl(158, 23%, 18%) 100%
+  );
 }
