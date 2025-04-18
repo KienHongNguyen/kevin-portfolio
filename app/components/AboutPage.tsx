@@ -37,9 +37,11 @@ const AboutPage = () => {
             className='w-full rounded-t-full'
           ></img>
         </div>
-        <div className='w-3/5'>
-          I&apos;m a Web Developer working remotely from 8°C Melbourne,
-          Australia.
+        <div className='flex justify-between h-fit w-3/5'>
+          <div>
+            I&apos;m a Web Developer working remotely from 8°C Melbourne,
+            Australia.
+          </div>
         </div>
       </div>
     </main>
