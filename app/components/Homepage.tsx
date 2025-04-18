@@ -17,7 +17,7 @@ const Homepage = () => {
           web apps with React, Next.js & Tailwind CSS.
         </div>
         {/* Button */}
-        <div className='text-white text-base xl:text-2xl font-bold bg-mainblue uppercase w-fit py-4 xl:py-5 px-12 xl:px-18 rounded-lg'>
+        <div className='text-white text-base xl:text-2xl font-bold bg-forest uppercase w-fit py-4 xl:py-5 px-12 xl:px-18 rounded-lg'>
           Projects
         </div>
       </div>

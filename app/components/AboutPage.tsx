@@ -1,6 +1,6 @@
 import React from "react";
 
-const name = () => {
+const AboutPage = () => {
   const skillList = [
     "HTML",
     "CSS",
@@ -23,7 +23,7 @@ const name = () => {
         <h1 className='text-[32px] xl:text-[42px] font-bold uppercase'>
           About Me
         </h1>
-        <div className='bg-mainblue w-8 xl:w-10 h-2 rounded-2xl'></div>
+        <div className='bg-light-forest w-8 xl:w-10 h-2 rounded-2xl'></div>
         <div className='text-base xl:text-2xl xl:w-3/5 text-center'>
           Here you will find more information about me, what I do, and my
           current skills mostly in terms of programming and technology
@@ -65,7 +65,7 @@ const name = () => {
             </div>
           </div>
           {/* Button */}
-          <button className='text-white text-base xl:text-xl font-bold bg-mainblue uppercase w-fit py-3 xl:py-4 px-10 xl:px-12 rounded-lg'>
+          <button className='text-white text-base xl:text-xl font-bold bg-forest uppercase w-fit py-3 xl:py-4 px-10 xl:px-12 rounded-lg'>
             Contact
           </button>
         </div>
@@ -90,4 +90,4 @@ const name = () => {
   );
 };
 
-export default name;
+export default AboutPage;
